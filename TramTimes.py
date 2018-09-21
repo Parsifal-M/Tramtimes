@@ -17,11 +17,11 @@ def shoppingtrip():
     if c1 == "Yes":
         for tramtime in tup1:
             if tramtime > localtime:
-                print("Tram there time:", tramtime)
+                print("\t\t\tTram there time:", tramtime)
     print("And the trams back are:")
     for tramback in tup2:
         if tramback > localtime:
-            print("Return Tram time: ", tramback)
+            print("\t\t\tReturn Tram time: ", tramback)
 
 
 shoppingtrip()
